@@ -1,0 +1,11 @@
+import random
+
+liste1 = ("bilgisiyar oynamak")
+liste2 = ("tipsiz ve zırtıl")
+liste3 = ("3. olan tübitak projemiz")
+liste4 = ("kelle paça")
+liste = [liste1 , liste2 , liste3 , liste4]
+print(random.choice(liste))
+
+emojis = ["^^", "0_o", ":)", "¯\_(ツ)_/¯", "(￢_￢)"]
+print(random.choice(emojis))
